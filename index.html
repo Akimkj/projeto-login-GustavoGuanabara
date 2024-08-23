@@ -9,18 +9,20 @@
 </head>
 <body>
     <main>
-        <section id="backImg"></section>
-        <section id="forms">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-            <form action="cadastro.java" method="post">
-                <label for=""></label>
-                <input type="email" name="" id="">
-                <label for=""></label>
-                <input type="password" name="" id="">
-                <input type="submit" value="">
-            </form>
-        <a href="" target="_blank" rel="noopener noreferrer"></a>
+        <section id="login">
+            <section id="backImg"></section>
+            <section id="forms">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="cadastro.java" method="post">
+                    <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                    <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email">
+                    <label for="isenhacorrente"><span class="material-symbols-outlined">vpn_key</span></label>
+                    <input type="password" name="senhacorrente" id="isenhacorrente" autocomplete="current-password" placeholder="Sua senha">
+                    <input type="submit" value="Entrar">
+                </form>
+            <a href="" target="_blank" rel="noopener noreferrer">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
+            </section>
         </section>
     </main>
 </body>
