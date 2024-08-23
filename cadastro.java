@@ -1,1 +1,1 @@
-Suas informações foram salvas;
+Suas informações foram salvas
