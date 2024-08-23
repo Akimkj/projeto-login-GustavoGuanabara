@@ -72,17 +72,18 @@ main {
     font-size: 1.9em;
     cursor: pointer;
     display: inline-block;
+}
+
+label {
     padding: 5px;
 }
 
 .groupform input {
     background-color: rgb(174, 226, 224);
-    padding: 10px 20px 0px 0px;
+    /*padding: 15px 20px 0px 0px;*/
+    width: 180px;
+    height: 40px;
     border-radius: 10px;
     border: none;
     display: inline-block;
-}
-
-.groupform input[placeholder] {
-    font-size: 1em;
 }
