@@ -18,11 +18,11 @@
                 <form action="cadastro.java" method="post">
                     <div class="groupform">
                         <label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" required>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" required minlength="5" maxlength="40">
                     </div>
                     <div class="groupform">
                         <label for="isenhacorrente"><span class="material-symbols-outlined">vpn_key</span></label>
-                        <input type="password" name="senhacorrente" id="isenhacorrente" autocomplete="current-password" placeholder="Sua senha" required>
+                        <input type="password" name="senhacorrente" id="isenhacorrente" autocomplete="current-password" placeholder="Sua senha" required minlength="8" maxlength="20">
                     </div>
                     <input type="submit" value="Entrar">
                 </form>
