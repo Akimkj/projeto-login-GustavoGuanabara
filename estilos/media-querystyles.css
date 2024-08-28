@@ -11,7 +11,7 @@
         width: 25vw;
         height: 100%;
         padding: 40px;
-        display: inline-block;
+        float: left;
     }
 
     #forms {
@@ -24,15 +24,14 @@
 /*para pc's, desktops e telas grandes*/
 @media screen and (min-width: 992px) {
     #login {
-        width: 942px;
+        width: 900px;
         height: 342px;
     }
 
     #backImg {
-        width: 442px;
+        width: 400px;
         height: 100%;
-        padding: 40px;
-        display: inline-block;
+        float: right;
     }
 
     #forms {
