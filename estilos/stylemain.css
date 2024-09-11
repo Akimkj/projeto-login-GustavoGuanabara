@@ -21,20 +21,19 @@ body, html {
 main {
     width: 100vw;
     height: 100vh;
-    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     background-color: white;
     overflow: hidden;
     width: 250px;
     height: 510px;
     border-radius: 20px;
     box-shadow: 2px 2px 3px #241131a6;
-    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
